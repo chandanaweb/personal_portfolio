@@ -21,6 +21,8 @@ a:hover {
   color: #6633ff;
 }
 
+
+
 /* Section Styles */
 
 .main-nav {
@@ -54,10 +56,22 @@ a:hover {
 .nav a:hover {
   color: white
 }
+.experience-mainDiv{
+  color: steelblue;
+  background-color: #222;
+  height: 50px;
+}
+.experience-mainDiv a:hover{
+  color : orange;
+}
+
+.experience-mainDiv ul li{
+  margin-top: 10px;
+}
 
 header {
   text-align: center;
-  background: url('images/AP_mountains.jpg') no-repeat top center ;
+  background: url('images/mountains.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
